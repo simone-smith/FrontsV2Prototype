@@ -1,0 +1,58 @@
+{
+    "title": "Spotlight",
+    "lightStyle": {
+        "primaryColour": "#005689",
+        "secondaryColour": "#4bc6df",
+        "overlayColour": "#183f5d",
+        "backgroundColour": "#FFFFFF",
+        "titleColour": "#121212",
+        "lineColour": "#121212"
+    },
+    "darkStyle": {
+        "primaryColour": "#005689",
+        "secondaryColour": "#4bc6df",
+        "overlayColour": "#183f5d",
+        "backgroundColour": "#FFFFFF",
+        "titleColour": "#121212",
+        "lineColour": "#121212"
+    },
+    "items": [
+        {
+            "column": [
+                {
+                    "preferredColumnWidth": 3,
+                    "modules": [
+                        {
+                            "type": "immersive",
+                            "information": {
+                                "duration": "3"
+                            },
+                            "articles": [
+                                {
+                                    "links": {
+                                        "uri": "https://mobile.guardianapis.com/uk/items/science/2022/aug/01/midnight-sooner-earth-spins-faster-shortest-day",
+                                        "shortUrl": "http://www.theguardian.com/p/mxak3",
+                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/science/2022/aug/01/midnight-sooner-earth-spins-faster-shortest-day",
+                                        "webUri": "https://www.theguardian.com/science/2022/aug/01/midnight-sooner-earth-spins-faster-shortest-day"
+                                    },
+                                    "kicker": "Oh my days! /",
+                                    "title": "Midnight comes a fraction sooner as Earth spins faster",
+                                    "image": {
+                                        "urlTemplate": "https://i.guim.co.uk/img/media/ad499d43d0b529062c0c467d15b0d3be35030bd5/0_0_8000_4800/master/8000.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=c39b543daebe164b6ee24bdff4e38b8a",
+                                        "height": 4800,
+                                        "width": 8000,
+                                        "orientation": "landscape",
+                                        "caption": "A single spin of the Earth marks out a day and drives the cycle of sunrise and sunset. Photograph: Photograph: Janez Volmajer/Alamy",
+                                        "credit": "Janez Volmajer/Alamy",
+                                        "altText": "The Earth with the sun rising",
+                                        "placeholderColour": "#121212"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

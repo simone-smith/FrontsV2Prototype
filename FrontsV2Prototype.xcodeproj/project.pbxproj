@@ -11,6 +11,10 @@
 		6981E7522898033C00F3A5A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981E7512898033C00F3A5A3 /* ContentView.swift */; };
 		6981E7542898033E00F3A5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6981E7532898033E00F3A5A3 /* Assets.xcassets */; };
 		6981E7572898033E00F3A5A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6981E7562898033E00F3A5A3 /* Preview Assets.xcassets */; };
+		6981E75E2898037700F3A5A3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981E75D2898037700F3A5A3 /* Models.swift */; };
+		6981E76028981F6F00F3A5A3 /* spotlight.json in Resources */ = {isa = PBXBuildFile; fileRef = 6981E75F28981F6F00F3A5A3 /* spotlight.json */; };
+		6981E76228981FCB00F3A5A3 /* FrontsServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981E76128981FCB00F3A5A3 /* FrontsServer.swift */; };
+		6981E764289823AB00F3A5A3 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6981E763289823AB00F3A5A3 /* Color+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		6981E7512898033C00F3A5A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6981E7532898033E00F3A5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6981E7562898033E00F3A5A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6981E75D2898037700F3A5A3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		6981E75F28981F6F00F3A5A3 /* spotlight.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spotlight.json; sourceTree = "<group>"; };
+		6981E76128981FCB00F3A5A3 /* FrontsServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontsServer.swift; sourceTree = "<group>"; };
+		6981E763289823AB00F3A5A3 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		6981E74E2898033C00F3A5A3 /* FrontsV2Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				6981E766289915E800F3A5A3 /* Layouts */,
 				6981E74F2898033C00F3A5A3 /* FrontsV2PrototypeApp.swift */,
 				6981E7512898033C00F3A5A3 /* ContentView.swift */,
 				6981E7532898033E00F3A5A3 /* Assets.xcassets */,
 				6981E7552898033E00F3A5A3 /* Preview Content */,
+				6981E75D2898037700F3A5A3 /* Models.swift */,
+				6981E76128981FCB00F3A5A3 /* FrontsServer.swift */,
+				6981E763289823AB00F3A5A3 /* Color+Hex.swift */,
 			);
 			path = FrontsV2Prototype;
 			sourceTree = "<group>";
@@ -62,9 +74,17 @@
 		6981E7552898033E00F3A5A3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				6981E75F28981F6F00F3A5A3 /* spotlight.json */,
 				6981E7562898033E00F3A5A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6981E766289915E800F3A5A3 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,7 @@
 			files = (
 				6981E7572898033E00F3A5A3 /* Preview Assets.xcassets in Resources */,
 				6981E7542898033E00F3A5A3 /* Assets.xcassets in Resources */,
+				6981E76028981F6F00F3A5A3 /* spotlight.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6981E76228981FCB00F3A5A3 /* FrontsServer.swift in Sources */,
+				6981E75E2898037700F3A5A3 /* Models.swift in Sources */,
 				6981E7522898033C00F3A5A3 /* ContentView.swift in Sources */,
 				6981E7502898033C00F3A5A3 /* FrontsV2PrototypeApp.swift in Sources */,
+				6981E764289823AB00F3A5A3 /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
