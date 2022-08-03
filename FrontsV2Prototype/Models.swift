@@ -8,35 +8,54 @@
 import Foundation
 import SwiftUI
 
+enum Layout {
+    static let padding: CGFloat = 20
+}
+
 struct Container: Codable {
     let title: String
     let lightStyle: Style?
     let darkStyle: Style?
-    let items: [Row]
+    let rows: [Row]
 }
 
 extension Container {
-    struct Column: Codable {
+    struct Column: Codable, Identifiable {
+        var id = UUID()
         let preferredColumnWidth: UInt
         let lightStyle: Style?
         let darkStyle: Style?
         let modules: [Module]
+
+        enum CodingKeys: String, CodingKey {
+            case preferredColumnWidth, lightStyle, darkStyle, modules
+        }
     }
 
-    struct Row: Codable {
+    struct Row: Codable, Identifiable {
+        var id = UUID()
         let lightStyle: Style?
         let darkStyle: Style?
-        let column: [Column]
+        let columns: [Column]
+
+        enum CodingKeys: String, CodingKey {
+            case lightStyle, darkStyle, columns
+        }
     }
 }
 
 extension Container {
-    struct Module: Codable {
+    struct Module: Codable, Identifiable {
+        var id = UUID()
         let type: ModuleType
         let lightStyle: Style?
         let darkStyle: Style?
-        let information: ModuleInformation
+        let information: Information
         let articles: [Article]
+
+        enum CodingKeys: String, CodingKey {
+            case type, lightStyle, darkStyle, information, articles
+        }
 
         enum ModuleType: String, Codable {
             case carousel
@@ -50,7 +69,11 @@ extension Container {
             case html // fallback
         }
 
-        struct ModuleInformation: Codable {
+        struct Information: Codable {
+            internal init(data: [String : String]) {
+                self.data = data
+            }
+
             let data: [String: String]
             // an example of why this struct might be useful
             var duration: Int? {
@@ -65,7 +88,8 @@ extension Container {
     }
 }
 
-struct Article: Codable {
+struct Article: Codable, Identifiable {
+    var id = UUID()
     let links: ArticleLinks
     let kicker: String?
     let title: String?
@@ -75,10 +99,14 @@ struct Article: Codable {
     let commentCount: UInt?
     let rating: UInt?
     let duration: TimeInterval?
-    let image: ArticleImage
+    let images: [ArticleImage]
     let sublinks: [Article]?
     let lightStyle: Style?
     let darkStyle: Style?
+
+    enum CodingKeys: String, CodingKey {
+        case links, kicker, title, contributors, trailText, timestamp, commentCount, rating, duration, images, sublinks, lightStyle, darkStyle
+    }
 }
 
 struct ArticleImage: Codable {
@@ -98,9 +126,14 @@ struct ArticleLinks: Codable {
     let webUri: String?
 }
 
-struct Contributor: Codable {
+struct Contributor: Codable, Identifiable {
+    var id = UUID()
     let name: String
     let photo: URL?
+
+    enum CodingKeys: String, CodingKey {
+        case name, photo
+    }
 }
 
 struct Style: Codable {

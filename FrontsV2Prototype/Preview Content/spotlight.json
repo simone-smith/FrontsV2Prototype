@@ -16,9 +16,9 @@
         "titleColour": "#121212",
         "lineColour": "#121212"
     },
-    "items": [
+    "rows": [
         {
-            "column": [
+            "columns": [
                 {
                     "preferredColumnWidth": 3,
                     "modules": [
@@ -37,16 +37,123 @@
                                     },
                                     "kicker": "Oh my days! /",
                                     "title": "Midnight comes a fraction sooner as Earth spins faster",
-                                    "image": {
-                                        "urlTemplate": "https://i.guim.co.uk/img/media/ad499d43d0b529062c0c467d15b0d3be35030bd5/0_0_8000_4800/master/8000.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=c39b543daebe164b6ee24bdff4e38b8a",
-                                        "height": 4800,
-                                        "width": 8000,
-                                        "orientation": "landscape",
-                                        "caption": "A single spin of the Earth marks out a day and drives the cycle of sunrise and sunset. Photograph: Photograph: Janez Volmajer/Alamy",
-                                        "credit": "Janez Volmajer/Alamy",
-                                        "altText": "The Earth with the sun rising",
-                                        "placeholderColour": "#121212"
-                                    }
+                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "images": [
+                                        {
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/ad499d43d0b529062c0c467d15b0d3be35030bd5/0_0_8000_4800/master/8000.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=c39b543daebe164b6ee24bdff4e38b8a",
+                                            "height": 4800,
+                                            "width": 8000,
+                                            "orientation": "landscape",
+                                            "caption": "A single spin of the Earth marks out a day and drives the cycle of sunrise and sunset. Photograph: Photograph: Janez Volmajer/Alamy",
+                                            "credit": "Janez Volmajer/Alamy",
+                                            "altText": "The Earth with the sun rising",
+                                            "placeholderColour": "#121212"
+                                        }
+                                    ]
+                                },
+                            ],
+                        },
+                        {
+                            "type": "immersive",
+                            "information": {
+                                "duration": "3"
+                            },
+                            "articles": [
+                                {
+                                    "links": {
+                                        "uri": "https://mobile.guardianapis.com/uk/items/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "shortUrl": "http://www.theguardian.com/p/mxam3",
+                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "webUri": "https://www.theguardian.com/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art"
+                                    },
+                                    "title": "‘Mind-blowing’ / Why do men’s paintings cost 10 times more than women’s?",
+                                    "kicker": "Mind-blowing’ /",
+                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "images": [
+                                        {
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/b0026bd6ff57a986f8969e3b899c759fb8f1edd4/1030_198_1970_1182/master/1970.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=844d9522a181e14b631279215c7fc100",
+                                            "height": 1182,
+                                            "width": 1970,
+                                            "caption": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m. Photograph: Photograph: Tristan Fewings/Getty Images for Sotheby's",
+                                            "credit": "Tristan Fewings/Getty Images for Sotheby's",
+                                            "altText": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m.",
+                                            "placeholderColour": "#121212"
+                                        }
+                                    ]
+                                },
+                            ],
+                        },
+                    ],
+                },
+            ],
+        },
+        {
+            "columns": [
+                {
+                    "preferredColumnWidth": 3,
+                    "modules": [
+                        {
+                            "type": "immersive",
+                            "information": {
+                                "duration": "3"
+                            },
+                            "articles": [
+                                {
+                                    "links": {
+                                        "uri": "https://mobile.guardianapis.com/uk/items/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "shortUrl": "http://www.theguardian.com/p/mxam3",
+                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "webUri": "https://www.theguardian.com/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art"
+                                    },
+                                    "title": "‘Mind-blowing’ / Why do men’s paintings cost 10 times more than women’s?",
+                                    "kicker": "Mind-blowing’ /",
+                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "images": [
+                                        {
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/b0026bd6ff57a986f8969e3b899c759fb8f1edd4/1030_198_1970_1182/master/1970.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=844d9522a181e14b631279215c7fc100",
+                                            "height": 1182,
+                                            "width": 1970,
+                                            "caption": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m. Photograph: Photograph: Tristan Fewings/Getty Images for Sotheby's",
+                                            "credit": "Tristan Fewings/Getty Images for Sotheby's",
+                                            "altText": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m.",
+                                            "placeholderColour": "#121212"
+                                        }
+                                    ]
+                                },
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "preferredColumnWidth": 3,
+                    "modules": [
+                        {
+                            "type": "immersive",
+                            "information": {
+                                "duration": "3"
+                            },
+                            "articles": [
+                                {
+                                    "links": {
+                                        "uri": "https://mobile.guardianapis.com/uk/items/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "shortUrl": "http://www.theguardian.com/p/mxam3",
+                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
+                                        "webUri": "https://www.theguardian.com/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art"
+                                    },
+                                    "title": "‘Mind-blowing’ / Why do men’s paintings cost 10 times more than women’s?",
+                                    "kicker": "Mind-blowing’ /",
+                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "images": [
+                                        {
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/b0026bd6ff57a986f8969e3b899c759fb8f1edd4/1030_198_1970_1182/master/1970.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=844d9522a181e14b631279215c7fc100",
+                                            "height": 1182,
+                                            "width": 1970,
+                                            "caption": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m. Photograph: Photograph: Tristan Fewings/Getty Images for Sotheby's",
+                                            "credit": "Tristan Fewings/Getty Images for Sotheby's",
+                                            "altText": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m.",
+                                            "placeholderColour": "#121212"
+                                        }
+                                    ]
                                 }
                             ]
                         }

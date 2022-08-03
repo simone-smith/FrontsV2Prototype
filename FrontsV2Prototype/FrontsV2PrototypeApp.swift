@@ -11,7 +11,7 @@ import SwiftUI
 struct FrontsV2PrototypeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrontsView()
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  Color+Hex.swift
+//  UIColor+Hex.swift
 //  FrontsV2Prototype
 //
 //  Created by Simone Smith on 01/08/2022.

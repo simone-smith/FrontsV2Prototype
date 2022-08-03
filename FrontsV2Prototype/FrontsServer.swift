@@ -10,6 +10,7 @@ import Foundation
 class FrontsServer: ObservableObject {
     
     @Published var objects: Container?
+    @Published var loadError: Error?
 
     func fetch() {
         if let path = Bundle.main.path(forResource: "spotlight", ofType: "json") {
@@ -20,6 +21,7 @@ class FrontsServer: ObservableObject {
                 self.objects = try coder.decode(Container.self, from: data)
             } catch {
                 print("bad stuff: \(error)")
+                self.loadError = error
             }
         }
     }
