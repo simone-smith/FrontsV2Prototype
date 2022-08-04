@@ -93,29 +93,29 @@
                     "preferredColumnWidth": 3,
                     "modules": [
                         {
-                            "type": "immersive",
+                            "type": "article",
                             "information": {
                                 "duration": "3"
                             },
                             "articles": [
                                 {
                                     "links": {
-                                        "uri": "https://mobile.guardianapis.com/uk/items/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
-                                        "shortUrl": "http://www.theguardian.com/p/mxam3",
-                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
-                                        "webUri": "https://www.theguardian.com/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art"
+                                        "uri": "https://mobile.guardianapis.com/uk/items/world/2022/aug/04/hey-thats-my-house-us-aid-worker-realises-zawahiri-villa-is-his-old-home",
+                                        "shortUrl": "http://www.theguardian.com/p/mxnnb",
+                                        "relatedUri": "https://mobile.guardianapis.com/uk/items-related/world/2022/aug/04/hey-thats-my-house-us-aid-worker-realises-zawahiri-villa-is-his-old-home",
+                                        "webUri": "https://www.theguardian.com/world/2022/aug/04/hey-thats-my-house-us-aid-worker-realises-zawahiri-villa-is-his-old-home"
                                     },
-                                    "title": "‘Mind-blowing’ / Why do men’s paintings cost 10 times more than women’s?",
-                                    "kicker": "Mind-blowing’ /",
-                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "title": "'Hey, that’s my house' / US aid worker realises Zawahiri villa is his old home",
+                                    "kicker": "'Hey, that’s my house' /",
+                                    "trailText": "The Kabul property hit by a US drone was familiar. It turned out Dan Smock had something in common with al-Qaida’s leader",
                                     "images": [
                                         {
-                                            "urlTemplate": "https://i.guim.co.uk/img/media/b0026bd6ff57a986f8969e3b899c759fb8f1edd4/1030_198_1970_1182/master/1970.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=844d9522a181e14b631279215c7fc100",
-                                            "height": 1182,
-                                            "width": 1970,
-                                            "caption": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m. Photograph: Photograph: Tristan Fewings/Getty Images for Sotheby's",
-                                            "credit": "Tristan Fewings/Getty Images for Sotheby's",
-                                            "altText": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m.",
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/c8fea48a065312402e294ee74cd0fdc2c68a9a82/0_648_4320_2592/master/4320.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=5edef154910e01852122757c036c3b11",
+                                            "height": 2592,
+                                            "width": 4320,
+                                            "caption": "The view from Zawahiri's balcony. Photograph: Photograph: Dan Smock",
+                                            "credit": "Dan Smock",
+                                            "altText": "The view from Zawahiri's balcony.",
                                             "placeholderColour": "#121212"
                                         }
                                     ]
@@ -128,7 +128,7 @@
                     "preferredColumnWidth": 3,
                     "modules": [
                         {
-                            "type": "immersive",
+                            "type": "article",
                             "information": {
                                 "duration": "3"
                             },
@@ -140,17 +140,17 @@
                                         "relatedUri": "https://mobile.guardianapis.com/uk/items-related/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art",
                                         "webUri": "https://www.theguardian.com/artanddesign/2022/aug/02/painting-gender-pay-gap-recalculating-art"
                                     },
-                                    "title": "‘Mind-blowing’ / Why do men’s paintings cost 10 times more than women’s?",
-                                    "kicker": "Mind-blowing’ /",
-                                    "trailText": "For every £1 fetched by a male artist’s work, one by a women gets a mere 10p – and its value plummets further if she signs it. The creator of Recalculating Art, a shocking new radio exposé, reveals her findings",
+                                    "title": "‘Don’t take it out on our staff!’ / How did Britain become so angry?",
+                                    "kicker": "‘Don’t take it out on our staff!’ /",
+                                    "trailText": "Shopworkers, GP surgeries and call centres have all reported an alarming rise in abusive behaviour directed toward them. How can we calm this national rage?",
                                     "images": [
                                         {
-                                            "urlTemplate": "https://i.guim.co.uk/img/media/b0026bd6ff57a986f8969e3b899c759fb8f1edd4/1030_198_1970_1182/master/1970.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=844d9522a181e14b631279215c7fc100",
-                                            "height": 1182,
-                                            "width": 1970,
-                                            "caption": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m. Photograph: Photograph: Tristan Fewings/Getty Images for Sotheby's",
-                                            "credit": "Tristan Fewings/Getty Images for Sotheby's",
-                                            "altText": "Beaten by Jeff Koons … Jenny Saville’s Propped was auctioned for $12.5m.",
+                                            "urlTemplate": "https://i.guim.co.uk/img/media/d7e74387da8a9ea38ce6e308233b9e8c365713dd/286_0_3820_2293/master/3820.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=411563bf24a2cabcbd16204495552cc3",
+                                            "height": 2293,
+                                            "width": 3820,
+                                            "credit": "Illustration: Sam Peet/The Guardian",
+                                            "altText": "Why are we so angry? illustration",
+                                            "caption": "",
                                             "placeholderColour": "#121212"
                                         }
                                     ]

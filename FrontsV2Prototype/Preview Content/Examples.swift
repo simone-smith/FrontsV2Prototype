@@ -6,10 +6,15 @@
 //
 
 import Foundation
+import SwiftUI
 
 extension Container.Module {
     static func example() -> Container.Module {
         Container.example().rows.first!.columns.first!.modules.first!
+    }
+
+    static func exampleImage() -> ArticleImage {
+        ArticleImage.init(urlTemplate: "https://i.guim.co.uk/img/media/ad499d43d0b529062c0c467d15b0d3be35030bd5/0_0_8000_4800/master/8000.jpg?w=#{width}&h=#{height}&q=#{quality}&fit=bounds&sig-ignores-params=true&s=c39b543daebe164b6ee24bdff4e38b8a", height: 4800, width: 8000, caption: "A single spin of the Earth marks out a day and drives the cycle of sunrise and sunset. Photograph: Photograph: Janez Volmajer/Alamy", credit: "Janez Volmajer/Alamy", altText: "The Earth with the sun rising", placeholderColour: Color.init(hex: "#121212"))
     }
 
     static func exampleImmersive() -> Container.Module {

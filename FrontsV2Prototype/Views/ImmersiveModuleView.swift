@@ -12,11 +12,17 @@ struct ImmersiveModuleView: View {
     let module: Container.Module
 
     var body: some View {
-        ZStack {
-            Color.gray
-            if let article = module.articles.first, let title = article.title {
-                Text(title)
-                    .padding()
+        ZStack(alignment: .bottom) {
+            if let article = module.articles.first, let title = article.title, let image = article.images.first {
+                ImageView(image: image)
+                    .overlay(
+                        Text(title)
+                            .padding()
+                            .foregroundColor(Color.white)
+                            .background(Color.gray)
+                            .opacity(0.7),
+                        alignment: .bottom
+                    )
             }
         }
         .padding(Layout.padding / 2)

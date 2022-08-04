@@ -12,7 +12,14 @@ struct DefaultModuleView: View {
     let module: Container.Module
 
     var body: some View {
-        Text("hello")
+        VStack(alignment: .leading) {
+            if let article = module.articles.first, let title = article.title, let image = article.images.first {
+                Text(title)
+                Spacer()
+                ImageView(image: image)
+            }
+        }
+        .padding(Layout.padding / 2)
     }
 }
 

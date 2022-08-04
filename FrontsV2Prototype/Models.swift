@@ -109,14 +109,17 @@ struct Article: Codable, Identifiable {
     }
 }
 
-struct ArticleImage: Codable {
-    let urlTemplate: String
-    let height: UInt
-    let width: UInt
+struct ArticleImage: Codable, ImageTemplate {
+    let urlTemplate: String?
+    let height: CGFloat?
+    let width: CGFloat?
     let caption: String
     let credit: String
     let altText: String
     let placeholderColour: Color
+    var aspectRatio: CGFloat {
+        (height ?? 0) / (width ?? 0)
+    }
 }
 
 struct ArticleLinks: Codable {

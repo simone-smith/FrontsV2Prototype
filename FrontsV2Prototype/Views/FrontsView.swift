@@ -22,6 +22,7 @@ struct FrontsView: View {
                     .navigationTitle("Fronts Rendering")
                 }
             }
+            .navigationViewStyle(StackNavigationViewStyle()) // this removes the LayoutConstraints warning in the console, see https://stackoverflow.com/questions/65316497/swiftui-navigationview-navigationbartitle-layoutconstraints-issue
         } else if let error = server.loadError {
             Text(error.localizedDescription)
         } else {
