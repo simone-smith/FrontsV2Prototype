@@ -20,7 +20,11 @@ struct Container: Codable {
 }
 
 extension Container {
-    struct Column: Codable, Identifiable {
+    struct Column: Codable, Identifiable, Equatable, Hashable {
+        static func == (lhs: Container.Column, rhs: Container.Column) -> Bool {
+            lhs.id == rhs.id
+        }
+
         var id = UUID()
         let preferredColumnWidth: UInt
         let lightStyle: Style?
@@ -45,7 +49,11 @@ extension Container {
 }
 
 extension Container {
-    struct Module: Codable, Identifiable {
+    struct Module: Codable, Identifiable, Equatable, Hashable {
+        static func == (lhs: Container.Module, rhs: Container.Module) -> Bool {
+            lhs.id == rhs.id
+        }
+
         var id = UUID()
         let type: ModuleType
         let lightStyle: Style?
@@ -69,7 +77,11 @@ extension Container {
             case html // fallback
         }
 
-        struct Information: Codable {
+        struct Information: Codable, Hashable {
+            static func == (lhs: Information, rhs: Information) -> Bool {
+                lhs.data == rhs.data
+            }
+
             internal init(data: [String : String]) {
                 self.data = data
             }
@@ -88,7 +100,11 @@ extension Container {
     }
 }
 
-struct Article: Codable, Identifiable {
+struct Article: Codable, Identifiable, Hashable {
+    static func == (lhs: Article, rhs: Article) -> Bool {
+        lhs.id == rhs.id
+    }
+
     var id = UUID()
     let links: ArticleLinks
     let kicker: String?
@@ -109,7 +125,7 @@ struct Article: Codable, Identifiable {
     }
 }
 
-struct ArticleImage: Codable, ImageTemplate {
+struct ArticleImage: Codable, ImageTemplate, Hashable {
     let urlTemplate: String?
     let height: CGFloat?
     let width: CGFloat?
@@ -122,14 +138,14 @@ struct ArticleImage: Codable, ImageTemplate {
     }
 }
 
-struct ArticleLinks: Codable {
+struct ArticleLinks: Codable, Hashable {
     let uri: String
     let shortUrl: String?
     let relatedUri: String?
     let webUri: String?
 }
 
-struct Contributor: Codable, Identifiable {
+struct Contributor: Codable, Identifiable, Hashable {
     var id = UUID()
     let name: String
     let photo: URL?
@@ -139,7 +155,7 @@ struct Contributor: Codable, Identifiable {
     }
 }
 
-struct Style: Codable {
+struct Style: Codable, Hashable {
     let primaryColour: Color
     let secondaryColour: Color
     let overlayColour: Color
